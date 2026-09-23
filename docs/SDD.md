@@ -6,5 +6,5 @@ API REST simples desenvolvida em Python (Flask), containerizada com Docker e imp
 ## 2. Componentes da Arquitetura
 - **Aplicação:** Python 3.10 com Flask na porta 5000 (redirecionada para a porta 80).
 - **Scanner SAST:** SonarCloud / SonarQube para análise de segurança no código.
-- **Infraestrutura Cloud:** Instância AWS EC2 (Ubuntu 22.04 LTS) executando Docker.
+- **Infraestrutura Cloud:** Instância AWS EC2 (Ubuntu 26.04 LTS) executando Docker.
 - **Pipeline CI/CD:** GitHub Actions com deploy automático via SSH.
